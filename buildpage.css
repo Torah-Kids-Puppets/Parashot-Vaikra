@@ -1,0 +1,13 @@
+.buildpage {display: flex; flex-direction: row; flex-wrap: nowrap;justify-content: center;width: 90%;height: auto; padding: 50px 15px;}
+
+.buildpagetxt {
+    display: flex;width: 40%;font-size: 30px; font-family: 'Josefin Sans', sans-serif; flex-direction: column;justify-content: center;align-items: center;align-content: center;
+}
+.buildpageimg{height: 35%;}
+
+.buildpageimg img{width: 100%;}
+
+@media screen and (max-width:800px) {
+.buildpage {display: flex; flex-direction: column; flex-wrap: nowrap;justify-content: center;width: 90%; height: auto; padding: 50px 15px; align-items: center;}
+.buildpagetxt{width:90%; font-size: 25px;}
+}

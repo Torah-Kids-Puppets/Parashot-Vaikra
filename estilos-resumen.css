@@ -1,0 +1,223 @@
+.about-usr {
+    padding: 50px 0px 0px 0px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.about-usr h2{
+    color: #1d273b;
+    font-weight: 300;
+}
+
+.about-usr titulo {
+    font-size: 50px;
+    text-align:center;
+}
+
+.about-usr hps{
+  color: #1d273b;
+  font-weight: 300;
+  font-size: 35px;
+  font-family: 'Secular One', sans-serif;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+}
+
+.contenedor-servicio{
+  padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+  object-fit: cover;
+    width: 275; /* width of container */
+    height: 275px; /* height of container */
+    object-fit: cover;
+    object-position: 0% 10%; /* try 20px 10px */ 
+    border-radius: 50%;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.checklist-servicio .service p{
+  font-size: 16.5px;
+  text-align: initial;
+  word-spacing: 0.2px;
+  letter-spacing: 0.2px;
+  line-height: 1.56;
+    margin-bottom: 20px;
+}
+
+.con2ts{
+  padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+
+.con2ts .servp{
+    margin-bottom: 10px;
+}
+
+.con2ts .servp p{
+  font-size: 16.5px;
+  text-align: initial;
+  word-spacing: 0.2px;
+  letter-spacing: 0.2px;
+  line-height: 1.56;
+    margin-bottom: 20px;
+}
+
+p{
+  font-size: 16.5px;
+  text-align: initial;
+  word-spacing: 0.2px;
+  letter-spacing: 0.2px;
+  line-height: 1.56;
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #743105;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.number{
+    display: inline-block;
+    /* 02 */
+    background-image: linear-gradient(to top, #7c4000 0%, #f2b760 100%);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+     object-fit: cover;
+     border-radius: 50%;
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%;
+     margin-bottom: 40px;
+    }
+    
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .servp{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+    
+    .cont-expert{
+        width: 80%;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    
+}
